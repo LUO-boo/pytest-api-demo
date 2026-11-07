@@ -1,0 +1,31 @@
+# 测试数据文件
+# 作用：把测试数据放在这里，方便修改
+
+# 单条商品测试数据
+single_product:
+  productId: "1096424368652"
+  originalTitle: "女士优雅花朵抓夹"
+  titleLength: "60"
+  type: "1"
+
+# 批量商品测试数据
+batch_products:
+  - productId: "1046102085606"
+    originalTitle: "可移动桌面增高架"
+    titleLength: "60"
+    type: "1"
+  - productId: "1044401047726"
+    originalTitle: "女士亲肤针织衫"
+    titleLength: "60"
+    type: "1"
+
+# 使用方法：
+# 1. 在测试用例中导入工具
+#    from common.utils import read_config
+#
+# 2. 读取数据
+#    test_data = read_config("testcases/test_data/title_data.yaml")
+#
+# 3. 使用数据
+#    product = test_data["single_product"]
+#    print(product["productId"])  # 输出: 1096424368652

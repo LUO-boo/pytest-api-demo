@@ -1,0 +1,37 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试缓存
+.pytest_cache/
+.tox/
+
+# 测试报告（自动生成，不提交）
+report/
+logs/
+
+# 环境配置（包含敏感信息，不提交）
+config/env.yaml
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
